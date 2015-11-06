@@ -1,0 +1,8 @@
+protected/config/main.php
+
+## generic files to ignore
+*~
+*.DS_Store
+
+# Ignore IDE folder
+.idea/
