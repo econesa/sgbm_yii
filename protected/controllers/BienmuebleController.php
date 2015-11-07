@@ -412,7 +412,7 @@ class BienmuebleController extends Controller
 		}
 
 		$existeT = BmTraspasoItem::model()->exists('bienmueble_id='.$model->id); 
-		$existeF = FBm3Bien::model()->exists('bienmueble_id='.$model->id);
+		$existeF = Fbm3Bien::model()->exists('bienmueble_id='.$model->id);
 		if ($existeT) {
 			Yii::app()->user->setFlash('error', 'No puede efectuarse la operación. El bien esta en proceso de traspaso.');
 			$this->redirect(array('view', 'id'=>$model->id));

@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Reportes'=>array('index'),
+	'Reportes'=>array('/reporte/index'),
 	'Formulario B.M.3',
 );
 

@@ -43,7 +43,7 @@
 		<div id="logo" style="color:white;">
 			<?php //echo '<img src="'.Yii::app()->theme->baseUrl.'/images/logo.png"></img>'; ?>
 			<h2 style="color:white;	"><?php echo CHtml::encode(Yii::app()->name); ?></h2>
-			<p style="font-size:9pt; margin-bottom:0px;">Sitio regido bajo la Gaceta Oficial Nro. 2681 Extraordinario - Caracas, 31 de octubre de 1980</p>
+			<p style="font-size:9pt; margin-bottom:0px;">Sitio regido bajo la Gaceta Oficial Nro. 2681 Extraordinario - Ccs, 31 de octubre de 1980</p>
 		</div>
 	</div><!-- header -->
    
